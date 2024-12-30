@@ -1,6 +1,6 @@
 {
   "name": "gumloop",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Javascript SDK for running Gumloop automations",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
