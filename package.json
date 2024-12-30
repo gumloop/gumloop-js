@@ -1,0 +1,29 @@
+{
+  "name": "gumloop",
+  "version": "1.0.0",
+  "description": "Javascript SDK for running Gumloop automations",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "ts-node tests/test.ts"
+  },
+  "keywords": [
+    "gumloop",
+    "automation",
+    "workflow"
+  ],
+  "author": "Rahul Behal",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "axios": "^1.7.9"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}
